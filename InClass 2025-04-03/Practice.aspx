@@ -15,7 +15,7 @@
             </br>
             <asp:Label ID="lblLastName" runat="server" Text="Last Name"></asp:Label>
             <asp:TextBox ID="txtLastName" runat="server"></asp:TextBox>
-            <asp:Button ID="cmdOK" runat="server" Text="OK" OnClick="cmdOK_Click" />
+            <asp:Button ID="cmdOK" runat="server" Text="OK" OnClick="cmdOK_Click" Width="166px" />
             </br>
             <asp:Label ID="lblResponse" runat="server" Text=""></asp:Label>
             <asp:ListBox ID="lbTeams" runat="server">
